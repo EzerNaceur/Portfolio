@@ -1,4 +1,4 @@
-⚙️ Tech Stack
+# ⚙️ Tech Stack
 React.js
 Three.js
 React Three Fiber
@@ -6,7 +6,8 @@ React Three Drei
 Email JS
 Vite
 Tailwind CSS
-🔋 Features
+
+# 🔋 Features
 👉 Customizable 3D Hero Section: Includes a 3D desktop model easily customizable to suit specific needs.
 
 👉 Interactive Experience and Work Sections: Utilizes animations powered by framer motion for engaging user experience.
