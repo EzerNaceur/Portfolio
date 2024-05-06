@@ -1,3 +1,6 @@
+# Guided Project
+*All credit of this template goes to https://www.youtube.com/channel/UCmXmlB4-HJytD7wek0Uo97A*
+**Original Repo**: [https://github.com/adrianhajdin/project_3D_developer_portfolio/tree/main]
 # ⚙️ Tech Stack
 React.js
 Three.js
