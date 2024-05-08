@@ -23,8 +23,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className='w-[150px] object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer'>Ezer Naceur <span className='sm:block hidden'>| Cybersecurity Portfolio</span></p>
+          <img src={logo} alt="logo" className='w-14 h-14 object-contain' />
+          <p className='text-white text-[18px] font-bold cursor-pointer'>Ezer &nbsp; 
+          <span className='sm:block hidden'>| Naceur</span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (
