@@ -5,16 +5,16 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
 
 const Computers = () => {
-  const computer = useGLTF('./desktop_pc/scene.gltf');
+  const computer = useGLTF('/desktop_pc/scene.gltf');
   
   
   return (
     <mesh>
-      <hemisphereLight intensity={3} groundColor="black" />
+      <hemisphereLight intensity={2.25} groundColor="black" />
       <pointLight intensity={1.50} />
       <primitive 
         object={computer.scene}
-        scale ={0.75}
+        scale ={0.7}
         position={[0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
@@ -45,4 +45,4 @@ const ComputersCanvas = () => {
 }
 
 
-export default Computers
+export default ComputersCanvas
