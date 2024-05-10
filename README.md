@@ -3,7 +3,6 @@
 
 **Original Repo**: https://github.com/adrianhajdin/project_3D_developer_portfolio/tree/main
 # ⚙️ Tech Stack
-![image](https://github.com/N00ber17/Portfolio/assets/113790646/1ee63041-b829-4aef-90d3-d215aba15be9)
 React.js
 Three.js
 React Three Fiber
