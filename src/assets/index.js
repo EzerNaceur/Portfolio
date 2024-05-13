@@ -20,6 +20,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import tensorflow from "./tech/tensorflow.png";
+import bash from "./tech/bash.png";
+import kali from "./tech/kali.png";
 
 import fullstack from "./company/fullstack.png";
 import team from "./company/team.png";
@@ -55,4 +59,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  tensorflow,
+  kali,
+  python,
+  bash
 };

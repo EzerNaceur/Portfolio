@@ -21,6 +21,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    python, 
+    kali,
+    bash,
+    tensorflow
   } from "../assets";
   
   export const navLinks = [
@@ -79,12 +83,16 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Kali",
+      icon: kali,
+    },
+    {
+      name: "Bash",
+      icon: bash,
     },
     {
       name: "Node JS",
@@ -96,15 +104,11 @@ import {
     },
     {
       name: "Three JS",
-      icon: threejs,
+      icon: tensorflow,
     },
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
