@@ -8,23 +8,23 @@ import {
     html,
     css,
     reactjs,
-    redux,
-    tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
     fullstack,
     team,
     carrent,
     jobit,
     tripguide,
-    threejs,
     python, 
     kali,
     bash,
-    tensorflow
+    tensorflow,
+    google,
+    nlp,
+    matlab,
+    webD
   } from "../assets";
   
   export const navLinks = [
@@ -144,33 +144,6 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
     {
       name: "Car Rent",
@@ -236,5 +209,71 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+
+  const certifications = [
+    {
+      name: "MATLAB for Machine Learning",
+      description:
+        "Certification apart of MathWorks online courses that teaches how to use MATLAB for classification and regression problems, how to choose our model and evaluate it as well optimizing it.",
+      tags: [
+        {
+          name: "MATLAB",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "ML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Classification",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: matlab,
+      source_code_link: "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=bb4ca0f6-e825-4011-a28a-074f5ad915d6&",
+    },
+    {
+      name: "Google Foundations of Cybersecurity ",
+      description:
+        "Cybersecurity course to recognize core skills and knowledge needed to become a cybersecurity analyst, as well explain security ethics and identify common tools used by cybersecurity analysts",
+      tags: [
+        {
+          name: "Cybersecurity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSIP",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NIST Framework",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: google,
+      source_code_link: "https://www.coursera.org/account/accomplishments/records/FCR2FDWN8ANY",
+    },
+    {
+      name: "Responsive Web Design",
+      description:
+        "A comprehensive certification that allowed me to discover web design concepts with multiple tools and frameworks like ReactJS, jQuery as well basic AJAX querying.",
+      tags: [
+        {
+          name: "ReactJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "jQuery",
+          color: "green-text-gradient",
+        },
+        {
+          name: "AJAX",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: webD,
+      source_code_link: "https://www.freecodecamp.org/certification/EzerNaceur/responsive-web-design",
+    },
+  ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, certifications, projects };

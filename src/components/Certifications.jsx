@@ -2,13 +2,12 @@ import {Tilt} from "react-tilt";
 import {motion} from 'framer-motion';
 
 import {styles} from '../styles';
-import {github} from '../assets';
+import {link} from '../assets';
 import {SectionWrapper} from '../hoc'
-import { projects } from '../constants';
+import { certifications } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
-
-const ProjectCard = ({ index, name, description, tags, image, source_code_link}) => {
+const CertificationCard = ({ index, name, description, tags, image, source_code_link}) => {
  return (
   <motion.div
     variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -33,8 +32,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
           >
             <img 
-              src={github}
-              alt="github"
+              src={link}
+              alt="link"
               className="w-1/2 h-1/2 object-contain"
             />
           </div>
@@ -59,28 +58,28 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
   )
 }
 
-const Works = () => {
+const Certifications = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>My Work</p>
-          <h2 className={styles.sectionHeadText}>Projects.</h2>
+          <p className={styles.sectionSubText}>Learning</p>
+          <h2 className={styles.sectionHeadText}>Certifications.</h2>
       </motion.div>
       <div className="w-full flex">
         <motion.p 
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Here are some of the projects I worked on for hands on training and familiarizing myself with the tools that I might use.
+          These are some of the online certifications that I've earned in order to learn.
         </motion.p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
-          <ProjectCard 
+        {certifications.map((certification, index) => (
+          <CertificationCard 
             key={`project-${index}`}
             index={index}
-            {...project}
+            {...certification}
           />
         ))}
       </div>
@@ -89,4 +88,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "")
+export default SectionWrapper(Certifications, "")
