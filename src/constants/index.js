@@ -13,7 +13,8 @@ import {
     git,
     docker,
     fullstack,
-    team,
+    uib,
+    biat,
     carrent,
     jobit,
     tripguide,
@@ -133,7 +134,7 @@ import {
     {
       title: "Internship",
       company_name: "BIAT - Banque Internationnale Arabe de Tunisie",
-      icon: Biat,
+      icon: biat,
       iconBg: "#E6DEDD",
       date: "Summer 2024",
       points: [
@@ -145,7 +146,7 @@ import {
       {
       title: "Internship",
       company_name: "UIB - Union Internationnale de Banques",
-      icon: Uib,
+      icon: uib,
       iconBg: "#E6DEDD",
       date: "Summer 2025",
       points: [

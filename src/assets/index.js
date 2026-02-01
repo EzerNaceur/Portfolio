@@ -27,6 +27,8 @@ import kali from "./tech/kali.png";
 
 import fullstack from "./company/fullstack.png";
 import team from "./company/team.png";
+import uib from "./company/Uib.png";
+import biat from "./company/Biat.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -61,6 +63,8 @@ export {
   threejs,
   team,
   fullstack,
+  uib,
+  biat,
   carrent,
   jobit,
   tripguide,
